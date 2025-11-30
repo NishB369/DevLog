@@ -38,7 +38,7 @@ export const WhyChooseDevLog = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-lg text-gray-300 text-center max-w-3xl mx-auto mb-12 w-1/2 leading-tight"
+          className="text-lg text-gray-300 text-center w-full sm:max-w-3xl mx-auto mb-12 sm:w-1/2 leading-tight"
         >
           An immediate contrast: what you get with a tool built for{" "}
           <span className="font-bold font-serif italic tracking-normal text-white mr-1">

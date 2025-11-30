@@ -150,7 +150,7 @@ export const BentoGrid = () => {
                 (Not Another Dashboard)
               </div>
             </h3>
-            <p className="text-gray-200 mt-1 text-sm sm:text-base pl-40 leading-relaxed">
+            <p className="text-gray-200 mt-1 text-sm sm:text-base sm:pl-40 leading-relaxed">
               Visualize your deep work patterns across weeks and months —
               without tracking a single metric manually.
             </p>

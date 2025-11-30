@@ -8,3 +8,7 @@
   --font-serif: "Instrument Serif", serif;
   --animate-shiny-text: shiny-text 8s infinite;
 }
+
+body {
+  background-color: black;
+}
