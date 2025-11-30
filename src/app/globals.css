@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-brand: "Bebas Neue";
+  --font-serif: "Instrument Serif", serif;
+  --animate-shiny-text: shiny-text 8s infinite;
+}
