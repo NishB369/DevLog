@@ -20,7 +20,7 @@ export default function HeroSection() {
   const rotateX = useTransform(scrollYProgress, [0, 1], [-60, 45]);
 
   return (
-    <section className="w-screen relative flex flex-col items-center justify-center">
+    <section className="w-screen h-screen sm:h-auto relative flex flex-col items-center justify-center">
       <div style={{ width: "100%", height: "100%", position: "absolute" }}>
         <LetterGlitch
           glitchSpeed={50}
@@ -30,7 +30,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="container py-20 mx-auto px-6 z-10 h-full w-full flex flex-col items-center justify-center bg-linear-to-b form-white/1 via-black/5 to-black/50 backdrop-blur-[6px]">
+      <div className="container py-6 sm:py-20 mx-auto px-6 z-10 h-full w-full flex flex-col items-center justify-center bg-linear-to-b form-white/1 via-black/5 to-black/50 backdrop-blur-[6px]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export default function HeroSection() {
             heading="Introducing DevLog"
             icon={<Code className="text-yellow-400 w-4 h-4" />}
           />
-          <p className="text-lg md:text-7xl font-semibold max-w-4xl mx-auto">
+          <p className="text-3xl md:text-7xl font-semibold max-w-4xl mx-auto">
             Your code{" "}
             <span className="font-serif italic font-medium">ships</span>. <br />
             Your day shouldn’t{" "}
@@ -71,19 +71,19 @@ export default function HeroSection() {
             <ShinyText
               heading="No Noise Focus"
               icon={<Target className="text-yellow-400 w-4 h-4" />}
-              className="absolute top-12 -left-20"
+              className="absolute top-12 -left-20 hidden sm:block"
               isAnimated={true}
             />
             <ShinyText
               heading="Effortless Analytics"
               icon={<ChartBar className="text-yellow-400 w-4 h-4" />}
-              className="absolute top-72 left-40"
+              className="absolute top-72 left-40 hidden sm:block"
               isAnimated={true}
             />
             <ShinyText
               heading="Not Another Dashboard"
               icon={<LayoutDashboard className="text-yellow-400 w-4 h-4" />}
-              className="absolute top-20 -right-20"
+              className="absolute top-20 -right-20 hidden sm:block"
               isAnimated={true}
             />
             <Image
@@ -91,7 +91,7 @@ export default function HeroSection() {
               alt="Dashboard"
               width={1000}
               height={100}
-              className="rounded-3xl border-12 border-white/10"
+              className="rounded-3xl border-12 border-white/10 hidden sm:block"
             />
           </motion.div>
 

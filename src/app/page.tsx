@@ -13,13 +13,15 @@ export default function Home() {
     <div className="w-full">
       <HeroSection />
       <BentoGridSection heading="Your Day, Structured like your Code." />
-      <CtaSection />
+      <div className="hidden sm:block">
+        <CtaSection />
+      </div>
       <WhyChooseDevLog />
       <HowDevLogHelpsYou />
       <TestimonialMarquee />
       <PricingSection />
       <FAQs />
-      <CTABannerSection/>
+      <CTABannerSection />
     </div>
   );
 }

@@ -9,7 +9,7 @@ interface MarqueeLogosProps {
 
 export default function MarqueeLogos({ heading }: MarqueeLogosProps) {
   return (
-    <div className="relative  bg-black/10 w-full">
+    <div className="relative hidden sm:block bg-black/10 w-full">
       <p className="text-center text-gray-300 text-2xl font-serif my-6 font-medium">
         {heading}
       </p>

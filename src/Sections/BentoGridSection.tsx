@@ -29,7 +29,7 @@ export const BentoGridSection = ({ heading }: BentoGridSectionProps) => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg text-gray-300 text-center max-w-2xl mx-auto mb-12"
         >
-          <span className="font-serif font-bold bg-green-700 text-white p-1">
+          <span className="font-serif font-bold bg-linear-to-br from-[#4ade80] via-[#2c824c] to-[#153f25] text-white p-1">
             Elevate your productivity.
           </span>{" "}
           Manage tasks effortlessly by organizing and visualizing everything in
